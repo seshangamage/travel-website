@@ -1,4 +1,4 @@
-# Blue Lanka Tours Website
+# Lanka Tours Website
 
 A modern, responsive travel website inspired by Blue Lanka Tours, featuring Sri Lankan travel packages, day tours, and travel experiences.
 
