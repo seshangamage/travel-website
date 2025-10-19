@@ -3,11 +3,6 @@
     {
       "route": "/",
       "serve": "/index.html"
-    },
-    {
-      "route": "/*",
-      "serve": "/index.html",
-      "statusCode": 404
     }
   ],
   "navigationFallback": {
