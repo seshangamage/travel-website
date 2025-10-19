@@ -1,4 +1,4 @@
-# Sri Lanka Travel Website
+# Lanka Tours Website
 
 A beautiful, responsive travel website showcasing Sri Lanka's destinations, tour packages, and travel services. This website is inspired by the design and functionality of popular Sri Lankan travel websites including JetWing Travels, Pearl Routes, and Pearl Path Lanka.
 
