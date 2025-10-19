@@ -1,182 +1,191 @@
-# Blue Lanka Tours Website
+# Sri Lanka Travel Website
 
-A modern, responsive travel website inspired by Blue Lanka Tours, featuring Sri Lankan travel packages, day tours, and travel experiences.
+A beautiful, responsive travel website showcasing Sri Lanka's destinations, tour packages, and travel services. This website is inspired by the design and functionality of popular Sri Lankan travel websites including JetWing Travels, Pearl Routes, and Pearl Path Lanka.
 
-## 🚀 Features
+## Features
 
-- **Responsive Design**: Fully responsive layout that works on all devices
-- **Modern UI/UX**: Clean, professional design with smooth animations
-- **Interactive Elements**: Hover effects, smooth scrolling, and dynamic content
-- **Tour Packages**: Showcase of curated itineraries and day tours
-- **Blog Section**: Travel journal with latest articles and tips
-- **Newsletter Signup**: Email subscription functionality
-- **Mobile Navigation**: Hamburger menu for mobile devices
-- **Performance Optimized**: Fast loading with optimized images and code
+### 🏠 Homepage
+- Hero section with interactive Sri Lanka map
+- Journey selection cards with different travel themes
+- Featured destinations showcase
+- Popular tour packages
+- Customer testimonials
+- Call-to-action sections
 
-## 🛠️ Technologies Used
+### 🗺️ Destinations Page
+- Comprehensive list of Sri Lankan destinations
+- Detailed information for each location
+- Feature tags (Historical, Beach, Wildlife, etc.)
+- Responsive grid layout
+- High-quality destination images
 
-- **HTML5**: Semantic markup structure
-- **CSS3**: Modern styling with Flexbox and Grid
-- **JavaScript**: Interactive functionality and animations
-- **Font Awesome**: Icons for enhanced UI
-- **Google Fonts**: Poppins font family for typography
-- **Unsplash Images**: High-quality travel photography
+### 📦 Packages Page
+- Tour package categories with filtering
+- Detailed package information including:
+  - Duration and pricing
+  - Experience highlights
+  - Travel details
+  - Booking options
+- Service features showcase
+- Why choose us section
 
-## 📁 Project Structure
+### 📞 Contact Page
+- Comprehensive contact form with validation
+- Multiple contact methods (phone, email, WhatsApp)
+- Business hours information
+- FAQ section
+- Emergency contact details
 
-```
-travelsite/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles and responsive design
-├── script.js           # JavaScript functionality
-├── package.json        # Project configuration
-└── README.md          # Project documentation
-```
+### ℹ️ About Page
+- Company story and values
+- Team member profiles
+- Service differentiators
+- Awards and recognition
+- Comprehensive service overview
 
-## 🚀 Getting Started
+## Design Features
 
-### Prerequisites
+### 🎨 Visual Design
+- Modern, clean aesthetic inspired by reference websites
+- Sri Lankan color palette (greens, blues, oranges)
+- Professional typography using Poppins font
+- High-quality imagery placeholders
+- Interactive map with location markers
 
-- A modern web browser
-- Node.js (optional, for development server)
-
-### Installation
-
-1. **Clone or download** the project files
-2. **Open the project folder** in your code editor
-3. **Run the website** using one of these methods:
-
-#### Method 1: Direct File Opening
-Simply open `index.html` in your web browser.
-
-#### Method 2: Local Development Server (Recommended)
-```bash
-# Install dependencies (optional)
-npm install
-
-# Start development server
-npm run dev
-# or
-npm start
-```
-
-The website will open automatically in your browser at `http://localhost:3000`.
-
-## 🎨 Customization
-
-### Colors
-The website uses a blue color scheme inspired by Blue Lanka Tours:
-- Primary Blue: `#1e3c72`
-- Secondary Blue: `#2a5298`
-- Accent Gold: `#ffd700`
-
-### Content Updates
-- **Tour Packages**: Update the tour cards in the HTML
-- **Blog Posts**: Modify the blog section with your content
-- **Contact Information**: Update phone numbers and email addresses
-- **Images**: Replace Unsplash images with your own photos
-
-### Styling
-- Modify `styles.css` to change colors, fonts, or layout
-- Update responsive breakpoints as needed
-- Customize animations and transitions
-
-## 📱 Responsive Design
-
-The website is fully responsive with breakpoints at:
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: Below 768px
-
-## 🔧 Features Breakdown
-
-### Navigation
-- Fixed header with smooth scrolling
-- Dropdown menus for tour categories
+### 📱 Responsive Design
+- Mobile-first approach
+- Fully responsive across all devices
+- Touch-friendly navigation
+- Optimized images and layouts
 - Mobile hamburger menu
-- Contact information in header
 
-### Hero Section
-- Full-screen background image
-- Company branding and tagline
-- Award showcase
-- Call-to-action buttons
+### ⚡ Interactive Features
+- Smooth scrolling navigation
+- Animated elements on scroll
+- Interactive Sri Lanka map with clickable locations
+- Package filtering system
+- Image gallery with modal view
+- Form validation and submission
+- Mobile-optimized interactions
 
-### Tour Packages
-- Grid layout with hover effects
-- Image overlays with tour information
-- Smooth animations and transitions
+## Technical Stack
 
-### Blog Section
-- Card-based layout
-- Featured travel articles
-- Read more functionality
+- **HTML5**: Semantic markup with proper SEO structure
+- **CSS3**: Modern styling with Flexbox and Grid
+- **JavaScript**: Vanilla JS for all interactions
+- **Font Awesome**: Icons and UI elements
+- **Google Fonts**: Poppins typography
 
-### Footer
-- Company information
-- Quick links to all sections
-- Contact details
-- Social media integration ready
+## File Structure
 
-## 🌐 Browser Support
+```
+SiteA/
+├── index.html              # Homepage
+├── destinations.html       # Destinations listing
+├── packages.html          # Tour packages
+├── contact.html           # Contact form and info
+├── about.html             # About us page
+└── assets/
+    ├── css/
+    │   └── style.css      # Main stylesheet
+    ├── js/
+    │   └── script.js      # Main JavaScript file
+    └── images/            # Image assets (placeholder references)
+```
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+## Setup Instructions
+
+1. **Download/Clone the project** to your local machine
+2. **Open any HTML file** in a modern web browser
+3. **For development**: Use a local server like Live Server for best experience
+4. **Add images**: Replace placeholder image references with actual photos
+
+## Image Requirements
+
+To complete the website, you'll need to add the following images to the `assets/images/` folder:
+
+### Essential Images
+- `sri-lanka-map.jpg` - Interactive map for homepage hero
+- `hero-background.jpg` - Main hero background
+
+### Destination Images
+- `anuradhapura.jpg`, `arugam-bay.jpg`, `bentota.jpg`
+- `colombo-dest.jpg`, `ella-dest.jpg`, `galle-dest.jpg`
+- `sigiriya.jpg`, `kandy.jpg`, `yala.jpg`
+- `dambulla.jpg`, `habarana.jpg`, `hatton.jpg`
+
+### Experience & Service Images
+- `luxury-travel.jpg`, `wildlife.jpg`, `romantic.jpg`
+- `group-travel.jpg`, `authentic-ceylon.jpg`, `adventure.jpg`
+- `beaches.jpg`, `culture.jpg`, `wildlife-nature.jpg`
+- Various service and team images
+
+### Package Images
+- `beach-hill-country.jpg`, `experiential-east.jpg`
+- `sustainable-luxury.jpg`, `cultural-triangle.jpg`
+- `honeymoon-special.jpg`, `wildlife-explorer.jpg`
+
+## Browser Support
+
+- Chrome/Chromium (recommended)
+- Firefox
+- Safari
+- Edge
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 📈 Performance
+## Performance Features
 
-- Optimized images from Unsplash CDN
-- Minimal JavaScript for fast loading
-- CSS animations using transform properties
-- Lazy loading for better performance
+- Optimized CSS and JavaScript
+- Intersection Observer for scroll animations
+- Debounced scroll events
+- Lazy loading ready (for images)
+- Mobile-optimized interactions
 
-## 🚀 Deployment
+## Customization
 
-### Static Hosting
-This is a static website that can be deployed to:
-- **GitHub Pages**
-- **Netlify**
-- **Vercel**
-- **AWS S3**
-- **Any web server**
+### Colors
+The website uses CSS custom properties for easy color customization:
+- Primary green: `#2c5f2d`
+- Secondary green: `#97bc62`
+- Accent orange: `#ff6b35`
 
-### Steps for Deployment
-1. Upload all files to your web server
-2. Ensure `index.html` is in the root directory
-3. Configure your domain to point to the server
-4. Test all functionality on the live site
+### Content
+All text content can be easily modified in the HTML files. The website is structured with semantic HTML for easy content management.
 
-## 📝 License
+### Layout
+The responsive grid system automatically adapts to different screen sizes. Layout can be customized through the CSS file.
 
-This project is licensed under the MIT License - see the package.json file for details.
+## SEO Features
 
-## 🤝 Contributing
+- Semantic HTML5 structure
+- Meta descriptions for all pages
+- Proper heading hierarchy
+- Alt text for images
+- Structured navigation
+- Mobile-friendly design
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+## Future Enhancements
 
-## 📞 Support
+- Content Management System integration
+- Multi-language support
+- Online booking system
+- Payment gateway integration
+- Blog section
+- Live chat support
+- Google Maps integration
+- Social media feeds
 
-For questions or support, please contact:
-- Email: your-email@example.com
-- Phone: (+94) 77 730 0852
+## Credits
 
-## 🔄 Updates
+Design inspiration from:
+- [JetWing Travels](https://jetwingtravels.com/)
+- [Pearl Routes](https://www.pearlroutes.lk/)
+- [Pearl Path Lanka](https://www.pearlpathlanka.com/)
 
-### Version 1.0.0
-- Initial release
-- Complete responsive design
-- All core features implemented
-- Mobile navigation
-- Interactive elements
+## License
+
+This is a demo website created for educational/portfolio purposes. Please ensure you have appropriate licenses for any images used in production.
 
 ---
 
-**Built with ❤️ for travel enthusiasts exploring Sri Lanka**
-
+**Note**: This website is fully functional with placeholder content and images. Simply add your own images and customize the content to make it production-ready.

@@ -1,0 +1,15 @@
+<!-- Wildlife Placeholder -->
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wildlifeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#228b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#wildlifeGrad)"/>
+  <!-- Elephant silhouette -->
+  <path d="M 100 150 Q 120 130 150 140 Q 180 150 200 160 Q 220 170 240 180 Q 250 190 240 200 Q 220 190 200 185 L 190 200 L 180 185 Q 150 180 120 185 L 110 200 L 100 185 Q 80 170 100 150 Z" 
+        fill="rgba(0,0,0,0.3)"/>
+  <text x="200" y="100" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="white">Wildlife Safari</text>
+  <text x="200" y="120" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Following The Wild</text>
+</svg>

@@ -1,0 +1,15 @@
+<!-- Romantic Travel Placeholder -->
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="romanticGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff69b4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff1493;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#romanticGrad)"/>
+  <!-- Heart shape -->
+  <path d="M 200 180 Q 180 160 160 170 Q 140 180 160 200 L 200 220 L 240 200 Q 260 180 240 170 Q 220 160 200 180 Z" 
+        fill="rgba(255,255,255,0.3)"/>
+  <text x="200" y="130" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="white">Romantic Escape</text>
+  <text x="200" y="150" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Romantic Serendipity</text>
+</svg>

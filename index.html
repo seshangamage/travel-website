@@ -3,228 +3,285 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lanka Tours - Hallmark of Sri Lankan Travel</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>Sri Lanka Travel - Discover Paradise | Your Travel Dreams</title>
+    <meta name="description" content="Discover the beauty of Sri Lanka with our expert travel services. Explore beaches, hill country, ancient sites, and wildlife with personalized tours and authentic experiences.">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <h2>Lanka Tours</h2>
-                </div>
-                <div class="nav-contact">
-                    <span><i class="fas fa-phone"></i> (+94) 77 264 1596</span>
-                    <button class="btn-primary">Enquire Now</button>
-                </div>
-                <div class="nav-menu" id="nav-menu">
-                    <ul class="nav-list">
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link">Tours <i class="fas fa-chevron-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Adventure Tours</a></li>
-                                <li><a href="#">Culture & Heritage</a></li>
-                                <li><a href="#">Family Tours</a></li>
-                                <li><a href="#">Luxury Tours</a></li>
-                                <li><a href="#">Wildlife Tours</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link">Day Tours <i class="fas fa-chevron-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Colombo</a></li>
-                                <li><a href="#">Kandy</a></li>
-                                <li><a href="#">Sigiriya & Dambulla</a></li>
-                                <li><a href="#">Yala National Park</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a href="#" class="nav-link">Accommodation</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="nav-toggle" id="nav-toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Sri Lanka Travel</h2>
+                <span>Discover Paradise</span>
             </div>
-        </nav>
-    </header>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="destinations.html" class="nav-link">Destinations</a>
+                </li>
+                <li class="nav-item">
+                    <a href="packages.html" class="nav-link">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <div class="hero-text">
-                <h1>Lanka Tours</h1>
-                <div class="hero-features">
-                    <span>Curated Itineraries</span>
-                    <span>Tailormade Experiences</span>
-                </div>
+            <h1>The Home of Sri Lankan Hospitality</h1>
+            <p>Paradise. Where else do you find perfect beaches, ancient history, vibrant culture, exotic cuisine and exciting wilderness in one tiny island?</p>
+            <div class="hero-buttons">
+                <a href="packages.html" class="btn btn-primary">Explore Packages</a>
+                <a href="destinations.html" class="btn btn-secondary">View Destinations</a>
             </div>
-            <div class="hero-awards">
-                <div class="award">
-                    <h3>Travelers Choice Awards</h3>
-                    <p>Best of the Best 2024</p>
+        </div>
+        <div class="hero-map">
+            <div class="sri-lanka-map">
+                <img src="assets/images/sri-lanka-map.svg" alt="Sri Lanka Map" class="map-image">
+                <div class="map-pointer" data-location="Colombo" style="top: 60%; left: 25%;">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="location-name">Colombo</span>
                 </div>
-                <div class="award">
-                    <h3>World Travel Awards</h3>
-                    <p>Leading Tour Operator in Sri Lanka 2023</p>
+                <div class="map-pointer" data-location="Kandy" style="top: 45%; left: 35%;">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="location-name">Kandy</span>
                 </div>
-                <div class="award">
-                    <h3>Certificate of Excellence</h3>
-                    <p>TripAdvisor 2023</p>
+                <div class="map-pointer" data-location="Galle" style="top: 75%; left: 30%;">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="location-name">Galle</span>
+                </div>
+                <div class="map-pointer" data-location="Sigiriya" style="top: 35%; left: 40%;">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="location-name">Sigiriya</span>
+                </div>
+                <div class="map-pointer" data-location="Ella" style="top: 55%; left: 45%;">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="location-name">Ella</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about">
+    <!-- Journey Section -->
+    <section class="journey-section">
         <div class="container">
-            <div class="about-content">
-                <h2>Magical Memories,<br>Bespoke experiences</h2>
-                <p>Embark on a journey with Lanka Tours, where every moment is meticulously crafted to leave an indelible mark on your heart. We understand that travel is more than just visiting destinations; it's about creating magical memories that linger long after you've returned home.</p>
-                <p>Our commitment at Lanka Tours is to transcend the ordinary. By understanding your unique desires and preferences, we ensure that your Sri Lankan sojourn is not just a trip but a personalized story waiting to be told.</p>
-                <button class="btn-primary">Plan your trip to Sri Lanka</button>
+            <h2>What's your journey?</h2>
+            <h3>Your adventure. Your way.</h3>
+            <div class="journey-grid">
+                <div class="journey-card">
+                    <img src="assets/images/luxury-travel.svg" alt="Barefoot Luxury">
+                    <div class="journey-content">
+                        <h4>Indulging</h4>
+                        <h5>Barefoot Luxury</h5>
+                        <a href="packages.html" class="journey-link">View more Tours</a>
+                    </div>
+                </div>
+                <div class="journey-card">
+                    <img src="assets/images/wildlife.svg" alt="Following the Wild">
+                    <div class="journey-content">
+                        <h4>Thrilling</h4>
+                        <h5>Following The Wild</h5>
+                        <a href="packages.html" class="journey-link">View more Tours</a>
+                    </div>
+                </div>
+                <div class="journey-card">
+                    <img src="assets/images/romantic.svg" alt="Romantic Serendipity">
+                    <div class="journey-content">
+                        <h4>Treasuring</h4>
+                        <h5>Romantic Serendipity</h5>
+                        <a href="packages.html" class="journey-link">View more Tours</a>
+                    </div>
+                </div>
+                <div class="journey-card">
+                    <img src="assets/images/group-travel.svg" alt="Join a Group">
+                    <div class="journey-content">
+                        <h4>Discovering</h4>
+                        <h5>Join a Group</h5>
+                        <a href="packages.html" class="journey-link">View more Tours</a>
+                    </div>
+                </div>
+                <div class="journey-card">
+                    <img src="assets/images/authentic-ceylon.svg" alt="Authentic Ceylon">
+                    <div class="journey-content">
+                        <h4>Amazing</h4>
+                        <h5>Authentic Ceylon</h5>
+                        <a href="packages.html" class="journey-link">View more Tours</a>
+                    </div>
+                </div>
+                <div class="journey-card">
+                    <img src="assets/images/adventure.svg" alt="Adventurous Spirit">
+                    <div class="journey-content">
+                        <h4>Daring</h4>
+                        <h5>Adventurous Spirit</h5>
+                        <a href="packages.html" class="journey-link">View more Tours</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured Tours Section -->
-    <section class="featured-tours">
+    <!-- Island Experiences Section -->
+    <section class="island-section">
         <div class="container">
-            <h2>Curated Itineraries</h2>
+            <h2>Our Island</h2>
+            <h3>Sri Lanka</h3>
+            <p>A land of places like no other</p>
+            <div class="experiences-grid">
+                <div class="experience-card">
+                    <img src="assets/images/beaches.jpg" alt="Popular Beaches">
+                    <h4>Popular Beaches</h4>
+                </div>
+                <div class="experience-card">
+                    <img src="assets/images/culture.jpg" alt="History & Culture">
+                    <h4>History & Culture</h4>
+                </div>
+                <div class="experience-card">
+                    <img src="assets/images/wildlife-nature.jpg" alt="Wildlife & Nature">
+                    <h4>Wildlife & Nature</h4>
+                </div>
+                <div class="experience-card">
+                    <img src="assets/images/lesser-travelled.jpg" alt="Lesser Travelled">
+                    <h4>Lesser Travelled</h4>
+                </div>
+                <div class="experience-card">
+                    <img src="assets/images/adventure-exp.jpg" alt="Adventure">
+                    <h4>Adventure</h4>
+                </div>
+                <div class="experience-card">
+                    <img src="assets/images/gastronomy.jpg" alt="Gastronomy">
+                    <h4>Gastronomy</h4>
+                </div>
+            </div>
+            <a href="destinations.html" class="btn btn-primary">View All Experiences</a>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section class="destinations-section">
+        <div class="container">
+            <h2>Fortresses, forests, temples, treasures</h2>
+            <h3>Magical destinations</h3>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <img src="assets/images/anuradhapura.jpg" alt="Anuradhapura">
+                    <h4>Anuradhapura</h4>
+                    <p>Ancient kingdom and sacred city</p>
+                </div>
+                <div class="destination-card">
+                    <img src="assets/images/arugam-bay.jpg" alt="Arugam Bay">
+                    <h4>Arugam Bay</h4>
+                    <p>Surfing paradise on the east coast</p>
+                </div>
+                <div class="destination-card">
+                    <img src="assets/images/bentota.jpg" alt="Bentota">
+                    <h4>Bentota</h4>
+                    <p>Beautiful beaches and water sports</p>
+                </div>
+                <div class="destination-card">
+                    <img src="assets/images/colombo-dest.jpg" alt="Colombo">
+                    <h4>Colombo</h4>
+                    <p>Vibrant capital city</p>
+                </div>
+                <div class="destination-card">
+                    <img src="assets/images/ella-dest.jpg" alt="Ella">
+                    <h4>Ella</h4>
+                    <p>Hill country with stunning views</p>
+                </div>
+                <div class="destination-card">
+                    <img src="assets/images/galle-dest.jpg" alt="Galle">
+                    <h4>Galle</h4>
+                    <p>Historic fort city by the sea</p>
+                </div>
+            </div>
+            <a href="destinations.html" class="btn btn-primary">View more destinations</a>
+        </div>
+    </section>
+
+    <!-- Featured Tours -->
+    <section class="tours-section">
+        <div class="container">
+            <h2>Discover paradise, the Jetwing way</h2>
+            <h3>Your journey: your plan.</h3>
             <div class="tours-grid">
                 <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Stilt Fishing Sri Lanka">
-                        <div class="tour-overlay">
-                            <h3>Enchanting Sri Lanka</h3>
-                            <p>This is kind of a busy trip with lots of included to make the most of your short time in Sri Lanka...</p>
-                            <button class="btn-secondary">Read More</button>
-                        </div>
+                    <img src="assets/images/experiential-east.jpg" alt="Experiential East">
+                    <div class="tour-info">
+                        <span class="tour-duration">7 days</span>
+                        <h4>Experiential East</h4>
+                        <p class="tour-type">Enchanting escapade</p>
+                        <p>Embark on a soul-stirring journey where ancient ruins, vibrant culture and pristine beaches weave unforgettable tales.</p>
+                        <a href="packages.html" class="tour-link">View More</a>
                     </div>
                 </div>
                 <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sigiriya Rock Fortress">
-                        <div class="tour-overlay">
-                            <h3>Last Minute Tour</h3>
-                            <p>Last Minute Tour in Sri Lanka is dedicated to last-minute travelers. Don't worry about any last-minute decisions...</p>
-                            <button class="btn-secondary">Read More</button>
-                        </div>
+                    <img src="assets/images/sustainable-luxury.jpg" alt="Sustainable Luxury">
+                    <div class="tour-info">
+                        <span class="tour-duration">12 days</span>
+                        <h4>Sustainable Luxury</h4>
+                        <p class="tour-type">Luxe serenity</p>
+                        <p>Embark on an eco-luxury journey where sustainability meets opulence in breathtaking landscapes and cultural richness.</p>
+                        <a href="packages.html" class="tour-link">View More</a>
                     </div>
                 </div>
                 <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sri Lankan Railway Journey">
-                        <div class="tour-overlay">
-                            <h3>Walking Tour Sri Lanka</h3>
-                            <p>Be prepared to sample some of Sri Lanka's most uplifting scenery on foot with this 14-days tour.</p>
-                            <button class="btn-secondary">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="https://images.unsplash.com/photo-1583417319070-4a69db38a482?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Ancient Temple Architecture">
-                        <div class="tour-overlay">
-                            <h3>UNESCO World Heritage Sites</h3>
-                            <p>UNESCO's World Heritage Site List includes eight unique attractions in Sri Lanka...</p>
-                            <button class="btn-secondary">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sri Lankan Family Beach">
-                        <div class="tour-overlay">
-                            <h3>Family Fun in Sri Lanka</h3>
-                            <p>This Family Fun Tour in Sri Lanka is designed to give kids the best experience...</p>
-                            <button class="btn-secondary">Read More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="https://images.unsplash.com/photo-1551524164-6cf2ac531d4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Luxury Resort Sri Lanka">
-                        <div class="tour-overlay">
-                            <h3>Slow-Paced Luxury Tour</h3>
-                            <p>Sri Lanka is the ideal place for a luxury family, couple, solo, or any type of vacation...</p>
-                            <button class="btn-secondary">Read More</button>
-                        </div>
+                    <img src="assets/images/everlasting-summer.jpg" alt="Everlasting Summer">
+                    <div class="tour-info">
+                        <span class="tour-duration">8 days</span>
+                        <h4>Everlasting Summer</h4>
+                        <p class="tour-type">Around the island</p>
+                        <p>Immerse in tropical bliss, explore vibrant culture and savor unforgettable moments on this sun-kissed adventure.</p>
+                        <a href="packages.html" class="tour-link">View More</a>
                     </div>
                 </div>
             </div>
+            <a href="packages.html" class="btn btn-primary">View all tours</a>
         </div>
     </section>
 
-    <!-- Custom Tour CTA -->
-    <section class="custom-tour-cta">
+    <!-- Testimonials -->
+    <section class="testimonials-section">
         <div class="container">
-            <div class="cta-content">
-                <h2>Looking for an<br><span>Exclusive Customized Tour?</span></h2>
-                <h3>No Problem</h3>
-                <button class="btn-primary">Connect with Us</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section class="blog">
-        <div class="container">
-            <h2>Our Travel Journal</h2>
-            <div class="blog-grid">
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sri Lankan Food">
+            <h2>Our guests share their thoughts</h2>
+            <h3>Testimonials</h3>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"We thoroughly enjoyed our time in Sri Lanka, appreciating the country's beauty and the warmth of its people. Thank you for your professionalism, making our experience truly memorable."</p>
+                    <div class="testimonial-author">
+                        <strong>Charles</strong>
+                        <span>Italy</span>
                     </div>
-                    <div class="blog-content">
-                        <span class="blog-date">September 23, 2025</span>
-                        <h3>The Ultimate Sri Lanka Foodie Tour: Culinary Experiences</h3>
-                        <p>Sri Lanka is a feast for the senses. It's not just the visuals of the island that delights you, but...</p>
-                        <a href="#" class="read-more">Read More →</a>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Grateful for the excellent 2-week itinerary. Special thanks for thoughtful hotel arrangements. Our guide, Mr. Kumar, was outstanding—warm, knowledgeable and passionate."</p>
+                    <div class="testimonial-author">
+                        <strong>Gayathri</strong>
+                        <span>India</span>
                     </div>
-                </article>
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1551524164-6cf2ac531d4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Packing">
+                </div>
+                <div class="testimonial-card">
+                    <p>"Had a magical trip to Sri Lanka with over 1,000 photos and a fantastic 20-minute film made by our son. Smooth, hassle-free holiday with a perfect guide. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <strong>Charlotte</strong>
+                        <span>United Kingdom</span>
                     </div>
-                    <div class="blog-content">
-                        <span class="blog-date">September 16, 2025</span>
-                        <h3>What to Pack for Your Sri Lanka Adventure: The Essential Checklist</h3>
-                        <p>Packing for the tropics may sound straightforward, but Sri Lanka isn't the atypical tropical island...</p>
-                        <a href="#" class="read-more">Read More →</a>
-                    </div>
-                </article>
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Family Trip">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">September 8, 2025</span>
-                        <h3>How to Plan a Multi-Generational Family Trip to Sri Lanka</h3>
-                        <p>Everybody needs a break, regardless of age, to rest, recharge, and reconnect...</p>
-                        <a href="#" class="read-more">Read More →</a>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Newsletter Section -->
-    <section class="newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2>Receive Travel Inspirations</h2>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Enter your email address" required>
-                    <button type="submit" class="btn-primary">Subscribe</button>
-                </form>
+                </div>
             </div>
         </div>
     </section>
@@ -234,54 +291,50 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>Lanka Tours</h3>
-                    <p>Hallmark of Sri Lankan Travel</p>
-                    <div class="contact-info">
-                        <p><i class="fas fa-phone"></i> (+94) 77 264 1596</p>
-                        <p><i class="fas fa-envelope"></i> letstravel@bluelankatours.com</p>
+                    <h3>Sri Lanka Travel</h3>
+                    <p>Your trusted partner for authentic Sri Lankan experiences. We create unforgettable journeys that showcase the beauty, culture, and hospitality of our island home.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
-                    <h4>Explore The Site</h4>
+                    <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Accommodation</a></li>
-                        <li><a href="#">Tailor Made Tours</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Discover Sri Lanka</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Day Tours</h4>
+                    <h4>Top Destinations</h4>
                     <ul>
-                        <li><a href="#">Day Tour of Colombo</a></li>
-                        <li><a href="#">Galle Day Tour</a></li>
-                        <li><a href="#">Kandy Day Tour</a></li>
-                        <li><a href="#">Sigiriya & Dambulla</a></li>
-                        <li><a href="#">Yala National Park</a></li>
-                        <li><a href="#">Whale Watching</a></li>
+                        <li><a href="destinations.html">Sigiriya</a></li>
+                        <li><a href="destinations.html">Kandy</a></li>
+                        <li><a href="destinations.html">Galle</a></li>
+                        <li><a href="destinations.html">Ella</a></li>
+                        <li><a href="destinations.html">Yala</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Itineraries</h4>
-                    <ul>
-                        <li><a href="#">Adventure & Nature Tours</a></li>
-                        <li><a href="#">Culture & Heritage Tours</a></li>
-                        <li><a href="#">Family Tours</a></li>
-                        <li><a href="#">Luxury Bespoke Tours</a></li>
-                        <li><a href="#">Wildlife Tours</a></li>
-                        <li><a href="#">Wellness Tours</a></li>
-                    </ul>
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +94 77 123 4567</p>
+                        <p><i class="fas fa-envelope"></i> info@srilankatravel.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Galle Road, Colombo 03, Sri Lanka</p>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; Copyright 2025. Lanka Tours. All Rights Reserved</p>
-                <p>Meet Us at World Travel Mart in London in November 2025. November 4-6, 2025 Excel, London, United Kingdom</p>
+                <p>&copy; 2025 Sri Lanka Travel. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

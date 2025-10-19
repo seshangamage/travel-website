@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="beachGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#20B2AA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0E68C;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#beachGradient)"/>
+  
+  <!-- Beach -->
+  <path d="M0 220 Q100 200 200 210 T400 200 L400 300 L0 300 Z" fill="#F4A460"/>
+  
+  <!-- Waves -->
+  <path d="M0 200 Q50 190 100 200 T200 195 T300 200 T400 195" stroke="#fff" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M0 210 Q50 200 100 210 T200 205 T300 210 T400 205" stroke="#fff" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- Palm trees -->
+  <g transform="translate(80,180)">
+    <rect x="-2" y="0" width="4" height="60" fill="#8B4513"/>
+    <ellipse cx="0" cy="-10" rx="15" ry="8" fill="#228B22"/>
+    <ellipse cx="-12" cy="-5" rx="12" ry="6" fill="#228B22"/>
+    <ellipse cx="12" cy="-5" rx="12" ry="6" fill="#228B22"/>
+  </g>
+  
+  <g transform="translate(320,160)">
+    <rect x="-2" y="0" width="4" height="80" fill="#8B4513"/>
+    <ellipse cx="0" cy="-10" rx="18" ry="10" fill="#228B22"/>
+    <ellipse cx="-15" cy="-5" rx="15" ry="8" fill="#228B22"/>
+    <ellipse cx="15" cy="-5" rx="15" ry="8" fill="#228B22"/>
+  </g>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="25" fill="#FFD700" opacity="0.9"/>
+  
+  <!-- Title -->
+  <text x="200" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#fff" stroke="#333" stroke-width="0.5">BENTOTA</text>
+  <text x="200" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fff" stroke="#333" stroke-width="0.3">Beach Paradise</text>
+</svg>

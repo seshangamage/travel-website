@@ -1,0 +1,24 @@
+<!-- Ella Hill Country -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ellaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#32cd32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228b22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#ellaGrad)"/>
+  <!-- Rolling hills -->
+  <path d="M 0 180 Q 50 160 100 180 Q 150 160 200 180 Q 250 160 300 180 Q 350 160 400 180 L 400 300 L 0 300 Z" 
+        fill="rgba(34,139,34,0.8)"/>
+  <path d="M 0 200 Q 80 180 160 200 Q 240 180 320 200 Q 360 190 400 200 L 400 300 L 0 300 Z" 
+        fill="rgba(0,100,0,0.6)"/>
+  <!-- Train bridge -->
+  <rect x="150" y="160" width="100" height="8" fill="rgba(139,69,19,0.8)" rx="2"/>
+  <rect x="160" y="168" width="4" height="20" fill="rgba(139,69,19,0.6)"/>
+  <rect x="180" y="168" width="4" height="20" fill="rgba(139,69,19,0.6)"/>
+  <rect x="200" y="168" width="4" height="20" fill="rgba(139,69,19,0.6)"/>
+  <rect x="220" y="168" width="4" height="20" fill="rgba(139,69,19,0.6)"/>
+  <rect x="240" y="168" width="4" height="20" fill="rgba(139,69,19,0.6)"/>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="white">Ella</text>
+  <text x="200" y="270" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Hill Country Paradise</text>
+</svg>

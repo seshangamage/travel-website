@@ -1,0 +1,20 @@
+<!-- Beach and Hill Country Package -->
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="beachHillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87ceeb;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#32cd32;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228b22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#beachHillGrad)"/>
+  <!-- Beach side -->
+  <path d="M 0 200 Q 50 180 100 200 L 100 300 L 0 300 Z" fill="rgba(255,255,224,0.6)"/>
+  <!-- Hills side -->
+  <path d="M 300 150 Q 350 130 400 150 L 400 300 L 300 300 Z" fill="rgba(34,139,34,0.6)"/>
+  <!-- Palm tree -->
+  <rect x="78" y="180" width="4" height="40" fill="rgba(139,69,19,0.8)"/>
+  <ellipse cx="80" cy="175" rx="12" ry="8" fill="rgba(0,128,0,0.7)"/>
+  <text x="200" y="40" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">Beach and Hill Country</text>
+  <text x="200" y="270" text-anchor="middle" font-family="Arial" font-size="14" fill="white">8 Days Perfect Escape</text>
+</svg>
