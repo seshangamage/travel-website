@@ -10,7 +10,6 @@ body {
     line-height: 1.6;
     color: #333;
     overflow-x: hidden;
-    background-color: #f8f9fa; /* Test background to verify CSS is loading */
 }
 
 img {
