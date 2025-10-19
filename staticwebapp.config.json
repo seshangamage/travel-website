@@ -15,7 +15,8 @@
     "exclude": ["/assets/*", "/*.{css,scss,js,png,gif,ico,jpg,svg}"]
   },
   "mimeTypes": {
-    ".svg": "image/svg+xml"
+    ".svg": "image/svg+xml",
+    ".css": "text/css"
   },
   "globalHeaders": {
     "Cache-Control": "public, max-age=31536000"
