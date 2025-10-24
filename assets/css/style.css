@@ -596,9 +596,11 @@ section h3 {
 .destination-info {
     padding: 2rem;
     flex: 1;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: center;
+    background-color: #f9f9f9 !important;
+    border: 1px solid #ddd !important;
 }
 
 .destination-info h3 {
@@ -610,9 +612,15 @@ section h3 {
 }
 
 .destination-info p {
-    color: #666;
+    color: #000 !important;
     margin-bottom: 1.5rem;
     line-height: 1.8;
+    font-weight: 500 !important;
+    opacity: 1 !important;
+    display: block !important;
+    visibility: visible !important;
+    font-size: 1rem !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .destination-features {
@@ -1820,4 +1828,55 @@ textarea:focus,
         margin: 0;
         padding: 0;
     }
+}
+
+/* EMERGENCY FIX FOR DESTINATION TEXT VISIBILITY */
+.destinations-content .destination-item {
+    display: block !important;
+    flex-direction: column !important;
+    min-height: auto !important;
+    overflow: visible !important;
+}
+
+.destinations-content .destination-item .destination-info {
+    width: 100% !important;
+    min-height: 200px !important;
+    padding: 20px !important;
+    display: block !important;
+}
+
+.destinations-content .destination-item .destination-info p {
+    color: #000 !important;
+    background-color: #f9f9f9 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    opacity: 1 !important;
+    display: block !important;
+    visibility: visible !important;
+    text-shadow: none !important;
+    padding: 15px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 5px !important;
+    margin: 10px 0 !important;
+    line-height: 1.6 !important;
+    z-index: 999 !important;
+    position: relative !important;
+    width: auto !important;
+    max-width: none !important;
+}
+
+/* Destination Images Styling */
+.destinations-content .destination-item img {
+    width: 300px !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 15px !important;
+    margin-bottom: 20px !important;
+    display: block !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important;
+    transition: transform 0.3s ease !important;
+}
+
+.destinations-content .destination-item:hover img {
+    transform: translateY(-3px) !important;
 }

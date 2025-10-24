@@ -8,6 +8,55 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- CLEAN STYLING FOR DESTINATION TEXT -->
+    <style>
+        .destination-item {
+            display: flex !important;
+            gap: 30px !important;
+            margin-bottom: 40px !important;
+            padding: 25px !important;
+            background: white !important;
+            border-radius: 15px !important;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+            align-items: flex-start !important;
+        }
+        
+        .destination-item img {
+            width: 300px !important;
+            height: 200px !important;
+            object-fit: cover !important;
+            border-radius: 10px !important;
+            margin-bottom: 20px !important;
+            display: block !important;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+        }
+        
+        .destination-info {
+            flex: 1 !important;
+            padding: 0 !important;
+        }
+        
+        .destination-info h3 {
+            color: #2c5f2d !important;
+            font-size: 1.8rem !important;
+            margin-bottom: 15px !important;
+        }
+        
+        .destination-info p {
+            color: #333 !important;
+            font-size: 16px !important;
+            line-height: 1.7 !important;
+            margin-bottom: 15px !important;
+            padding: 0 !important;
+            background: transparent !important;
+            border: none !important;
+        }
+        
+        .destination-features {
+            margin-top: 20px !important;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -60,7 +109,7 @@
                     <img src="assets/images/anuradhapura.svg" alt="Anuradhapura">
                     <div class="destination-info">
                         <h3>Anuradhapura</h3>
-                        <p>The epicentre of Sinhalese civilization dating back to 4th century BC, Anuradhapura is one of the ancient capitals of Sri Lanka, famous for its well-preserved ruins of ancient Lankan civilization.</p>
+                        <p style="color: #000000 !important; font-size: 16px !important; font-weight: 400 !important; background-color: #f9f9f9 !important; padding: 15px !important; margin: 10px 0 !important; border-radius: 5px !important; line-height: 1.6 !important; display: block !important;">Step into Sri Lanka's ancient heartland, where magnificent dagobas rise like white domes against azure skies. Dating back to the 4th century BC, this UNESCO World Heritage site showcases over 1,300 years of continuous civilization. Marvel at the sacred Sri Maha Bodhi tree, grown from a cutting of the original Bodhi tree under which Buddha attained enlightenment, and explore sprawling monastery ruins where thousands of monks once studied. The towering Jetavanaramaya dagoba, once among the world's tallest structures, demonstrates the incredible architectural prowess of ancient Sri Lankan kings.</p>
                         <div class="destination-features">
                             <span class="feature-tag">Historical</span>
                             <span class="feature-tag">UNESCO World Heritage</span>
@@ -72,7 +121,7 @@
 
                 <!-- Arugam Bay -->
                 <div class="destination-item">
-                    <img src="assets/images/arugam-bay.jpg" alt="Arugam Bay">
+                    <img src="assets/images/arugam-bay.svg" alt="Arugam Bay">
                     <div class="destination-info">
                         <h3>Arugam Bay</h3>
                         <p>Unspoilt beaches and magnificent waves: it's the ultimate 'hangout' for surfers and beach lovers. This laid-back destination offers some of the best surfing spots in Asia.</p>
@@ -87,7 +136,7 @@
 
                 <!-- Bentota -->
                 <div class="destination-item">
-                    <img src="assets/images/bentota.jpg" alt="Bentota">
+                    <img src="assets/images/bentota.svg" alt="Bentota">
                     <div class="destination-info">
                         <h3>Bentota</h3>
                         <p>With a mix of beautiful beaches, watersports and buzzing streets that attract tourists from around the world, Bentota is a perfect coastal getaway destination.</p>
@@ -102,7 +151,7 @@
 
                 <!-- Colombo -->
                 <div class="destination-item">
-                    <img src="assets/images/colombo-dest.jpg" alt="Colombo">
+                    <img src="assets/images/colombo-dest.svg" alt="Colombo">
                     <div class="destination-info">
                         <h3>Colombo</h3>
                         <p>A hotspot full of diverse attractions from upscale shopping malls to busy markets, colonial architecture to modern skyscrapers, and fine dining to street food.</p>
@@ -117,7 +166,7 @@
 
                 <!-- Dambulla -->
                 <div class="destination-item">
-                    <img src="assets/images/dambulla.jpg" alt="Dambulla">
+                    <img src="assets/images/authentic-ceylon.svg" alt="Dambulla">
                     <div class="destination-info">
                         <h3>Dambulla</h3>
                         <p>One of the main tourist attractions in Dambulla is the sacred cave temple complex, which consists of five caves adorned with stunning Buddhist murals and statues.</p>
@@ -135,7 +184,7 @@
                     <img src="assets/images/ella-dest.svg" alt="Ella">
                     <div class="destination-info">
                         <h3>Ella</h3>
-                        <p>Majestic waterfalls, hidden caves, breathtaking vistas across the mountains: Ella is a picture-perfect hill station that offers some of the most scenic views in Sri Lanka.</p>
+                        <p>Perched high in Sri Lanka's misty hill country, Ella enchants visitors with its dramatic landscapes and laid-back mountain charm. Trek to the summit of Ella Rock for sunrise views that stretch across endless tea plantations and valleys wrapped in morning mist. Marvel at the architectural masterpiece of the Nine Arch Bridge, where trains curve through lush greenery in a scene straight from a fairy tale. Feel the thunderous power of Ravana Falls cascading down ancient rock faces, and explore mysterious caves steeped in legend. The cool mountain air, friendly locals, and cozy guesthouses nestled among tea gardens create an atmosphere of peaceful serenity that captures every traveler's heart.</p>
                         <div class="destination-features">
                             <span class="feature-tag">Hill Country</span>
                             <span class="feature-tag">Scenic Views</span>
@@ -150,7 +199,7 @@
                     <img src="assets/images/galle-dest.jpg" alt="Galle">
                     <div class="destination-info">
                         <h3>Galle</h3>
-                        <p>In this Southern capital natural and cultural diversity thrives, and history lives on in the UNESCO World Heritage-listed Galle Fort, a stunning example of European colonial architecture.</p>
+                        <p>Where colonial elegance meets tropical paradise, Galle captivates with its UNESCO World Heritage Fort rising majestically from the Indian Ocean. Walk along ancient ramparts built by Portuguese and Dutch colonizers, where cannons still point toward the sea and waves crash dramatically against coral-stone walls. Within the fort's cobbled streets, discover charming boutique hotels in restored Dutch mansions, art galleries showcasing local talent, and cafes serving aromatic Ceylon tea. Browse for antique maps, handcrafted lace, and precious gems in shops housed within centuries-old buildings. As golden sunsets paint the lighthouse and ocean in warm hues, Galle reveals itself as a living museum where history, culture, and coastal beauty blend seamlessly together.</p>
                         <div class="destination-features">
                             <span class="feature-tag">Historical</span>
                             <span class="feature-tag">Colonial Architecture</span>
@@ -195,7 +244,7 @@
                     <img src="assets/images/kandy.jpg" alt="Kandy">
                     <div class="destination-info">
                         <h3>Kandy</h3>
-                        <p>The cultural heart of Sri Lanka, home to the sacred Temple of the Tooth Relic, beautiful botanical gardens, and rich traditions that continue to thrive in this UNESCO World Heritage city.</p>
+                        <p>Nestled among emerald hills beside a tranquil lake, Kandy pulses with spiritual energy and cultural richness. The last kingdom of Sri Lanka preserves centuries-old traditions in its sacred Temple of the Sacred Tooth Relic, where Buddha's tooth is enshrined in golden caskets. Wander through the world-renowned Royal Botanical Gardens in nearby Peradeniya, home to over 4,000 plant species including giant bamboo groves and exotic orchids. Experience the hypnotic rhythms of traditional Kandyan dance performances, explore vibrant markets filled with precious gems and spices, and watch skilled craftsmen create intricate silver jewelry and wood carvings using techniques passed down through generations.</p>
                         <div class="destination-features">
                             <span class="feature-tag">Cultural</span>
                             <span class="feature-tag">Sacred Sites</span>
@@ -207,10 +256,10 @@
 
                 <!-- Sigiriya -->
                 <div class="destination-item">
-                    <img src="assets/images/sigiriya.svg" alt="Sigiriya">
+                    <img src="assets/images/sigiriya.svg.jpg" alt="Sigiriya">
                     <div class="destination-info">
                         <h3>Sigiriya</h3>
-                        <p>The ancient rock fortress rises majestically from the plains, adorned with stunning frescoes and surrounded by water gardens. A true marvel of ancient engineering and artistry.</p>
+                        <p style="color: #000000 !important; font-size: 16px !important; font-weight: 400 !important; background-color: #f9f9f9 !important; padding: 15px !important; margin: 10px 0 !important; border-radius: 5px !important; line-height: 1.6 !important; display: block !important;">Behold the "Eighth Wonder of the World" - a colossal rock fortress that defies imagination. Rising 200 meters from emerald plains, Sigiriya combines natural beauty with human ingenuity in breathtaking harmony. Climb past the famous frescoes of celestial maidens, their beauty preserved for over 1,500 years, and discover the Mirror Wall where ancient visitors carved poetic graffiti. At the summit, explore the ruins of King Kasyapa's sky palace, surrounded by the world's oldest landscaped gardens featuring sophisticated hydraulic systems that still function today. The panoramic views from the top stretch endlessly across misty mountains and jungle canopy.</p>
                         <div class="destination-features">
                             <span class="feature-tag">Rock Fortress</span>
                             <span class="feature-tag">Ancient Art</span>
@@ -225,7 +274,7 @@
                     <img src="assets/images/yala.jpg" alt="Yala National Park">
                     <div class="destination-info">
                         <h3>Yala National Park</h3>
-                        <p>Famous for having the highest density of leopards in the world, Yala also hosts elephants, sloth bears, and over 200 bird species in its diverse ecosystems.</p>
+                        <p>Enter Sri Lanka's premier wildlife sanctuary, where untamed wilderness stretches from thorny scrublands to pristine beaches along the Indian Ocean. Yala boasts the world's highest concentration of leopards, offering thrilling opportunities to spot these magnificent predators lounging on rocky outcrops or prowling through golden grasslands. Watch herds of wild elephants gather at ancient watering holes, witness the comical antics of sloth bears foraging for termites, and observe over 200 bird species from painted storks to sea eagles soaring overhead. As your safari jeep navigates dusty tracks past ancient Buddhist temples and across seasonal rivers, every moment holds the promise of extraordinary wildlife encounters in this UNESCO Biosphere Reserve.</p>
                         <div class="destination-features">
                             <span class="feature-tag">Wildlife</span>
                             <span class="feature-tag">Safari</span>
